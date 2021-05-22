@@ -1,4 +1,4 @@
-//TODO: Step 6 - import the story.dart file into this file.
+import 'package:destiny/story.dart';
 
 class StoryBrain {}
 
