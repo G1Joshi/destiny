@@ -1,3 +1,4 @@
+import 'package:destiny/story_brain.dart';
 import 'package:flutter/material.dart';
 
 //TODO: Step 15 - Run the app and see if you can see the screen update with the first story. Delete this TODO if it looks as you expected.
@@ -13,7 +14,7 @@ class Destiny extends StatelessWidget {
   }
 }
 
-//TODO: Step 9 - Create a new storyBrain object from the StoryBrain class.
+StoryBrain storyBrain = StoryBrain();
 
 class StoryPage extends StatefulWidget {
   _StoryPageState createState() => _StoryPageState();
