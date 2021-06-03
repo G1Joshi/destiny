@@ -23,7 +23,6 @@ class _StoryPageState extends State<StoryPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        //TODO: Step 1 - Add background.png to this Container as a background image.
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage('assets/background.png'),
@@ -96,5 +95,3 @@ class _StoryPageState extends State<StoryPage> {
     );
   }
 }
-
-//TODO: Step 29 - Run the app and test it against the Story Outline to make sure you've completed all the steps. The code for the completed app can be found here: https://github.com/londonappbrewery/destini-challenge-completed/
